@@ -1,0 +1,29 @@
+{
+  "name": "codesense-ai",
+  "version": "1.0.0",
+  "description": "CodeSense AI – AI-Powered Multi-Language Code Analysis & Optimization Platform",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "node dev.js",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "test:server": "npm --prefix server test"
+  },
+  "keywords": [
+    "codesense",
+    "code-analysis",
+    "complexity",
+    "ai-optimization",
+    "ast",
+    "monaco",
+    "judge0"
+  ],
+  "author": "CodeSense AI Team",
+  "license": "ISC"
+}
